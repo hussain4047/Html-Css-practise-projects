@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12F</title>
+    <style>
+      div{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .main{
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(120, 82, 178);
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .left-part{
+        font-weight: bold;
+      }
+      .search-box{
+        width: 500px;
+        border: none;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        height: 30px;
+        border-radius: 15px;
+        padding-left: 20px;
+      }
+      .download-button{
+        background-color: rgb(120, 82, 178);
+        color: white;
+        font-size: 16px;
+        border-color: white;
+        border: 1px solid;
+        border-radius: 2px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="left-part">Home</div>
+      <div class="middle-part">
+        <input class="search-box" type="text" placeholder="Search" >
+      </div>
+      <div class="right-part"><button class="download-button">Download</button></div>
+    </div>
+  </body>
+</html>
